@@ -520,28 +520,24 @@
           </ul>
         </div>
         <div class="footer-subscribe-form">
-          <h2 class="footer-subscribe-text">Subscribe</h2>
-          <div class="form-subscribe">
-            <form class="footer-subscribe">
-              <input
-                class="subscribe-input"
-                type="email"
-                name="user_email_subscribe"
-                id="email-input-footer"
-                placeholder=" "
-                required=""
-              />
-              <label class="email-footer-label" for="email-input-footer"
-                >E-mail
-              </label>
-            </form>
+          <p class="footer-subscribe-text">Subscribe</p>
+
+          <form class="footer-subscribe">
+            <input
+              class="subscribe-input"
+              type="email"
+              name="user_email_subscribe"
+              id="email-input-footer"
+              placeholder="Email "
+              required=""
+            />
             <button class="button button-subscribe" type="submit">
               Subscribe
               <svg class="send-icon" width="24" height="20">
                 <use href="./images/icons.svg#icon-icon-send"></use>
               </svg>
             </button>
-          </div>
+          </form>
         </div>
       </div>
     </footer>
@@ -605,6 +601,7 @@
             name="user_massage"
             rows="5"
             placeholder="Text input"
+            id="user_massage"
           ></textarea>
 
           <label class="modal-form-agreement">
@@ -612,7 +609,6 @@
               class="modal-form-agreement-box"
               type="checkbox"
               name="user_agreement"
-              id=""
             />
             <span class="modal-form-agreemant-text"
               >I accept the terms and conditions of the

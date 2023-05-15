@@ -253,7 +253,7 @@ img {
   transform: translate(-50%, -50%);
   width: 408px;
   min-height: 576px;
-  padding: 24px;
+  padding: 72px 24px 24px;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -277,7 +277,6 @@ img {
 
   background: #e7e9fc;
   border: 1px solid rgba(0, 0, 0, 0.1);
-  margin-bottom: 24px;
 }
 .modal-btn:hover {
   background-color: #404bbf;
@@ -305,7 +304,7 @@ img {
 
   font-size: 16px;
   text-align: center;
-  margin-top: 48px;
+
   margin-bottom: 16px;
 }
 .modal-form {
@@ -342,6 +341,7 @@ img {
   position: absolute;
   top: 50%;
   left: 0;
+  fill: var(--color-primery);
 
   transform: translateY(-50%) translateX(16px);
   transition: outline-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -376,7 +376,7 @@ img {
 .modal-form-agreement {
   display: flex;
   align-items: center;
-  justify-content: center;
+
   gap: 9px;
   margin-bottom: 24px;
 }
@@ -717,7 +717,7 @@ img {
   background-color: var(--dark-color);
 }
 .send-icon {
-  color: var(--background-color);
+  fill: var(--background-color);
 }
 .form-subscribe {
   display: flex;
@@ -725,7 +725,6 @@ img {
   gap: 24px;
 }
 .footer-subscribe-form {
-  margin-left: auto;
 }
 .footer-subscribe-text {
   margin-bottom: 16px;
@@ -750,6 +749,7 @@ img {
   color: var(--background-color);
   background-color: var(--color-action);
   border: none;
+  height: 40px;
 }
 .button-subscribe:hover,
 .button-subscribe:focus {
