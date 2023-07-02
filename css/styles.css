@@ -690,6 +690,9 @@ img {
   margin-bottom: 16px;
 }
 .subscribe-input {
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   width: 264px;
   height: 40px;
   padding: 8px 8px 8px 16px;
