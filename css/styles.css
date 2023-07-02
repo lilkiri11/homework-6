@@ -421,6 +421,9 @@ img {
   background-size: 10px;
 }
 .modal-form-agreemant-text {
+  width: 16px;
+  height: 16px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
   font-size: 12px;
   letter-spacing: 0.04em;
   font-weight: 400;
