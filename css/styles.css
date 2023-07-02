@@ -212,7 +212,7 @@ img {
   display: block;
   margin: auto;
   min-width: 169px;
-  min-height: 56px;
+  height: 56px;
   border-radius: 4px;
   font-family: "Roboto", sans-serif;
   border: none;
@@ -625,7 +625,13 @@ img {
 .footer-container {
   display: flex;
   align-items: baseline;
-  gap: 120px;
+}
+
+.footer-text {
+  margin-right: 120px;
+}
+.footer-social {
+  margin-right: 80px;
 }
 .social-footer {
   display: flex;
@@ -684,20 +690,21 @@ img {
   margin-bottom: 16px;
 }
 .subscribe-input {
-  width: 100%;
+  width: 264px;
   height: 40px;
   padding: 8px 8px 8px 16px;
   opacity: 0.3;
   color: var(--background-color);
   background-color: transparent;
-  border: 1px solid #ffffff;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
+  border: 1px solid #ffffff;
 }
 .subscribe-input:focus,
 .subscribe-input :not(:placeholder-shown) {
   opacity: 1;
 }
+
 .email-footer-label {
   position: absolute;
   top: calc(40px / 2);
@@ -751,10 +758,7 @@ img {
   border: none;
   height: 40px;
 }
-.button-subscribe:hover,
-.button-subscribe:focus {
-  background-color: var(--color-background-social);
-}
+
 /* Section-Portfolio */
 
 .portfolio-section {
