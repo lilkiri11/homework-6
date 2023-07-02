@@ -297,6 +297,7 @@ img {
   pointer-events: none;
 }
 .modal-title {
+  color: var(--color-primery);
   display: block;
   letter-spacing: 0.02em;
   line-height: 24px;
