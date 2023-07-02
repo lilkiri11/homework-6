@@ -728,6 +728,7 @@ img {
 }
 .send-icon {
   fill: var(--background-color);
+  margin-left: 16px;
 }
 .form-subscribe {
   display: flex;
@@ -751,6 +752,8 @@ img {
   gap: 24px;
 }
 .button-subscribe {
+  min-width: 165px;
+  justify-content: center;
   display: flex;
   align-items: center;
   padding: 8px 24px;
